@@ -4,10 +4,10 @@ let User = {
   isActive: true,
 };
 
-function createUser({ name: string, isPaid: bool }): void {}
+// function createUser({ name: string, isPaid: boolean }): void {}
 
 let newUser = { name: "Kushagra", isPaid: false, email: "kush@gmail.com" };
-createUser(newUser);
+// createUser(newUser);
 
 function createCourse(): { name: string; price: number } {
   return { name: "Ts", price: 2300 };

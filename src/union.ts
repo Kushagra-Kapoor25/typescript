@@ -34,3 +34,5 @@ let pi: 3.14 = 3.14;
 
 let seatAllotment: "aisle" | "middle" | "window";
 // seatAllotment = "crew"; not allowed
+
+export {};

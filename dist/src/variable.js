@@ -1,17 +1,14 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var greetings = "Hello Kushagra";
-var myNum = 6;
+let greetings = "Hello Kushagra";
+let myNum = 6;
 greetings.toLowerCase();
 console.log(greetings);
 console.log(myNum);
-// number
-var userId = 33455.6;
+let userId = 33455.6;
 userId.toFixed();
-// userId = "kush"
-// boolean
-var isLoggedIn = false;
-var hero;
+let isLoggedIn = false;
+let hero;
 function getHero() {
     return true;
 }
